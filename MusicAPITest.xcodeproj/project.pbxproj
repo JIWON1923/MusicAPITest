@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07704E2CBD8EAE9DA490D845 /* Pods_MusicAPITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB99621134B63EF7BED601C /* Pods_MusicAPITest.framework */; };
-		87598C922854ACAA008CE695 /* ManiaDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87598C912854ACAA008CE695 /* ManiaDBAPI.swift */; };
-		87598C962854E120008CE695 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87598C952854E120008CE695 /* TableViewController.swift */; };
+		8715A79428550387001AB4F5 /* ITunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715A79328550387001AB4F5 /* ITunesAPI.swift */; };
 		87A131482854A32600419E98 /* MusicAPITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A131472854A32600419E98 /* MusicAPITestApp.swift */; };
 		87A1314A2854A32600419E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A131492854A32600419E98 /* ContentView.swift */; };
 		87A1314C2854A32700419E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A1314B2854A32700419E98 /* Assets.xcassets */; };
@@ -18,9 +16,7 @@
 
 /* Begin PBXFileReference section */
 		1D6536C3377E024374443934 /* Pods-MusicAPITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicAPITest.debug.xcconfig"; path = "Target Support Files/Pods-MusicAPITest/Pods-MusicAPITest.debug.xcconfig"; sourceTree = "<group>"; };
-		4DB99621134B63EF7BED601C /* Pods_MusicAPITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicAPITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87598C912854ACAA008CE695 /* ManiaDBAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManiaDBAPI.swift; sourceTree = "<group>"; };
-		87598C952854E120008CE695 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8715A79328550387001AB4F5 /* ITunesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAPI.swift; sourceTree = "<group>"; };
 		87A131442854A32600419E98 /* MusicAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A131472854A32600419E98 /* MusicAPITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAPITestApp.swift; sourceTree = "<group>"; };
 		87A131492854A32600419E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,7 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07704E2CBD8EAE9DA490D845 /* Pods_MusicAPITest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +70,7 @@
 				87A131492854A32600419E98 /* ContentView.swift */,
 				87A1314B2854A32700419E98 /* Assets.xcassets */,
 				87A1314D2854A32700419E98 /* Preview Content */,
-				87598C912854ACAA008CE695 /* ManiaDBAPI.swift */,
-				87598C952854E120008CE695 /* TableViewController.swift */,
+				8715A79328550387001AB4F5 /* ITunesAPI.swift */,
 			);
 			path = MusicAPITest;
 			sourceTree = "<group>";
@@ -92,7 +86,6 @@
 		F4E1D91ED3BE3D2EAD4ED568 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4DB99621134B63EF7BED601C /* Pods_MusicAPITest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,10 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8715A79428550387001AB4F5 /* ITunesAPI.swift in Sources */,
 				87A1314A2854A32600419E98 /* ContentView.swift in Sources */,
 				87A131482854A32600419E98 /* MusicAPITestApp.swift in Sources */,
-				87598C962854E120008CE695 /* TableViewController.swift in Sources */,
-				87598C922854ACAA008CE695 /* ManiaDBAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
